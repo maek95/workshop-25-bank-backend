@@ -218,3 +218,5 @@ app.get("/me/accounts/transactions", (req, res) => {
 app.listen(PORT, () => {
     console.log(`Bankens backend körs på http://localhost:${PORT}`);
 });
+
+module.exports = app;
