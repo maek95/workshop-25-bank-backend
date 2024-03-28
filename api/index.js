@@ -219,4 +219,4 @@ app.listen(PORT, () => {
     console.log(`Bankens backend körs på http://localhost:${PORT}`);
 });
 
-module.exports = app;
+/* module.exports = app; */
